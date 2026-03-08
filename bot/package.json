@@ -1,0 +1,16 @@
+{
+  "name": "btc-trading-liquidation-bot",
+  "version": "1.0.0",
+  "description": "24/7 Liquidation Bot for BTC Trading Simulation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
