@@ -9,7 +9,7 @@ import OrderPanel from './OrderPanel'
 import PositionsPanel from './PositionsPanel'
 
 interface TradingLayoutProps {
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 export default function TradingLayout({ children }: TradingLayoutProps) {

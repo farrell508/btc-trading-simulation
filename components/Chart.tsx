@@ -120,7 +120,8 @@ export default function Chart({ timeframe, onTimeframeChange }: ChartProps) {
       const data = JSON.parse(event.data)
       if (data.k) {
         const kline = data.k
-        const candle = {
+        // use any to satisfy Time type requirements from lightweight-charts
+        const candle: any = {
           time: Math.floor(kline.t / 1000),
           open: parseFloat(kline.o),
           high: parseFloat(kline.h),
