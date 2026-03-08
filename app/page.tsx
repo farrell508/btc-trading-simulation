@@ -1,3 +1,5 @@
+'use client'
+
 import TradingLayout from '@/components/TradingLayout'
 
 export default function Home() {
